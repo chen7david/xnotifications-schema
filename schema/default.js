@@ -32,6 +32,11 @@ schema.create('incorrect', {
     zh: (noun) =>`${noun}不正确`,
 })
 
+schema.create('expired', {
+    en: (noun) =>`expired ${noun}!`,
+    zh: (noun) =>`${noun}过期了`,
+})
+
 schema.create('forbidden', {
     en: (noun) =>`forbidden ${noun}!`,
     zh: (noun) =>`${noun}禁止`,
