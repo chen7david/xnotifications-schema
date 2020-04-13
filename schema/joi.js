@@ -57,6 +57,11 @@ schema.create('number.integer', {
     zh: (noun) => `${noun}必须是整数`,
 })
 
+schema.create('string.email', {
+    en: (noun) => `${noun} must be a valid email`, 
+    zh: (noun) => `${noun}格式有误`,
+})
+
 schema.create('string.min', {
     en: ({label, limit}) => `${label} length must be at least ${limit} characters long`, 
     zh: ({label, limit}) => `${label}至少得是${limit}字幕组成的`,
