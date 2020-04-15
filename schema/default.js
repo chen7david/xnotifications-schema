@@ -72,6 +72,11 @@ schema.create('verification_required', {
     zh: (noun) =>`${noun}验证未完成`,
 })
 
+schema.create('custom', {
+    en: (noun) =>`${noun}`,
+    zh: (noun) =>`${noun}`,
+})
+
 // CRUD
 
 schema.create('created', {
